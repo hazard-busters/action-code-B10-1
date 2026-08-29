@@ -7,10 +7,10 @@ jobs:
     runs-on: ubuntu-latest # runs the workflow on the latest ubuntu version
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4 # uses the checkout action to checkout the code
+        uses: actions/checkout@v6 # uses the checkout action to checkout the code
 
       - name: Set up Python
-        uses: actions/setup-python@v5 # uses the setup-python action to set up the python environment
+        uses: actions/setup-python@v6 # uses the setup-python action to set up the python environment
         with:
           python-version: '3.13'
 
